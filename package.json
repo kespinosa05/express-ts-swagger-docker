@@ -6,6 +6,8 @@
   "dependencies": {
     "@types/node": "^12.11.1",
     "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "swagger-ui-express": "^4.1.2",
     "tsoa": "^2.5.7",
     "typescript": "^3.6.4"
   },
