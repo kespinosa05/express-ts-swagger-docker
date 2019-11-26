@@ -1,4 +1,4 @@
-FROM node:12.10
+FROM node:12-alpine
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
@@ -12,4 +12,4 @@ ENV NODE_ENV docker
 
 EXPOSE 3000
 
-CMD [ "npm", "run", "server" ]
+CMD [ "npm", "run", "start" ]
